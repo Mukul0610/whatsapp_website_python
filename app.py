@@ -47,9 +47,7 @@ CORS(app)
 
 @app.route("/")
 def mukul():
-    return jsonify({
-        "username": "mukul"
-    })
+    return "HomeWork"
 
 @app.route('/upload_csv', methods=['POST'])
 def upload_csv():
